@@ -1,0 +1,35 @@
+fastapi
+uvicorn
+python-socketio
+python-multipart
+# Google GenAI SDK (v1beta) - Optional for online mode
+google-genai
+# Computer Vision & Audio
+opencv-python
+pyaudio
+pillow
+mss
+# Browser Automation
+playwright
+# Smart Home
+python-kasa
+# 3D Printing
+zeroconf>=0.131.0
+aiohttp>=3.9.0
+# Utilities
+python-dotenv
+# Face & Hand tracking
+mediapipe
+# CAD Generation
+build123d
+
+# ===== OFFLINE AI DEPENDENCIES =====
+# Offline LLM (GGUF models)
+llama-cpp-python>=0.2.0
+# Offline Speech-to-Text (Whisper)
+faster-whisper>=0.10.0
+# Offline Text-to-Speech (Piper)
+piper-tts>=1.2.0
+onnxruntime>=1.16.0
+# Model management
+huggingface-hub>=0.20.0
